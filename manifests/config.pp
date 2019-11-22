@@ -20,6 +20,10 @@ class smokeping::config {
   $webserver_user  = $smokeping::webserver_user
   $webserver_group = $smokeping::webserver_group
 
+  # Database
+  $database_step  = $smokeping::database_step
+  $database_pings = $smokeping::database_pings
+
   # Probes
   $probes = $smokeping::probes
 

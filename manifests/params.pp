@@ -37,6 +37,9 @@ class smokeping::params {
       comment           => 'loss 3 times in a row',
       } ]
 
+    $database_step      = 300
+    $database_pings     = 20
+
     # /etc/smokeping appears to be generally consistent cross-platform
     $targets_dir        = '/etc/smokeping/config.d/targets.d'
     $targets            = {}
