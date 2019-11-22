@@ -44,43 +44,43 @@ class smokeping::params {
         consfn => "AVERAGE",
         mrhb   => 0.5,
         steps  => 1,
-        total  => 10080
+        total  => 1008
       },
       {
         consfn => "AVERAGE",
         mrhb   => 0.5,
         steps  => 12,
-        total  => 86400
+        total  => 4320
       },
       {
         consfn => "MIN",
         mrhb   => 0.5,
         steps  => 12,
-        total  => 86400
+        total  => 4320
       },
       {
         consfn => "MAX",
         mrhb   => 0.5,
         steps  => 12,
-        total  => 86400
+        total  => 4320
       },
       {
         consfn => "AVERAGE",
         mrhb   => 0.5,
         steps  => 144,
-        total  => 207360
+        total  => 720
       },
       {
         consfn => "MIN",
         mrhb   => 0.5,
         steps  => 144,
-        total  => 207360
+        total  => 720
       },
       {
         consfn => "MAX",
         mrhb   => 0.5,
         steps  => 144,
-        total  => 207360
+        total  => 720
       }
     ]
 
