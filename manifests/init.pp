@@ -146,8 +146,8 @@ class smokeping(
   $slave_color        = $smokeping::params::slave_color,
   $webserver_user     = $smokeping::params::webserver_user,
   $webserver_group    = $smokeping::params::webserver_group,
-  $database_step      = $smokeping::params::database_step
-  $database_pings     = $smokeping::params::database_pings
+  $database_step      = $smokeping::params::database_step,
+  $database_pings     = $smokeping::params::database_pings,
   $package_perldoc    = $smokeping::params::package_perldoc,
   $master_name        = $smokeping::params::master_name,
   $owner              = $smokeping::params::owner,
