@@ -23,6 +23,7 @@ class smokeping::config {
   # Database
   $database_step  = $smokeping::database_step
   $database_pings = $smokeping::database_pings
+  $database_rrd   = $smokeping::database_rrd
 
   # Probes
   $probes = $smokeping::probes

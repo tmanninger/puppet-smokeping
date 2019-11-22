@@ -148,6 +148,7 @@ class smokeping(
   $webserver_group    = $smokeping::params::webserver_group,
   $database_step      = $smokeping::params::database_step,
   $database_pings     = $smokeping::params::database_pings,
+  $database_rrd       = $smokeping::params::database_rrd,
   $package_perldoc    = $smokeping::params::package_perldoc,
   $master_name        = $smokeping::params::master_name,
   $owner              = $smokeping::params::owner,

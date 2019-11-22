@@ -39,6 +39,50 @@ class smokeping::params {
 
     $database_step      = 300
     $database_pings     = 20
+    $database_rrd       = [
+      {
+        consfn => "AVERAGE",
+        mrhb   => 0.5,
+        steps  => 1,
+        total  => 10080
+      },
+      {
+        consfn => "AVERAGE",
+        mrhb   => 0.5,
+        steps  => 12,
+        total  => 86400
+      },
+      {
+        consfn => "MIN",
+        mrhb   => 0.5,
+        steps  => 12,
+        total  => 86400
+      },
+      {
+        consfn => "MAX",
+        mrhb   => 0.5,
+        steps  => 12,
+        total  => 86400
+      },
+      {
+        consfn => "AVERAGE",
+        mrhb   => 0.5,
+        steps  => 144,
+        total  => 207360
+      },
+      {
+        consfn => "MIN",
+        mrhb   => 0.5,
+        steps  => 144,
+        total  => 207360
+      },
+      {
+        consfn => "MAX",
+        mrhb   => 0.5,
+        steps  => 144,
+        total  => 207360
+      }
+    ]
 
     # /etc/smokeping appears to be generally consistent cross-platform
     $targets_dir        = '/etc/smokeping/config.d/targets.d'
